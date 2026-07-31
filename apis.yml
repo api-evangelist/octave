@@ -1,7 +1,28 @@
 aid: octave
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octave.png
 name: Octave
-description: Octave is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Octave (Octave Online Therapy) is a modern behavioral and mental health company
+  providing personalized, evidence-based therapy — individual, couples, and family
+  therapy, plus Dialectical Behavior Therapy (DBT) and specialized Centers of
+  Excellence for perinatal/postpartum mental health, LGBTQIA+ (queer resiliency),
+  trauma, and women's emotional health. Care is delivered virtually and in-person
+  across 20+ U.S. states, with in-network insurance coverage, a therapy cost
+  calculator, therapist matching, and a secure client portal. Octave is a portfolio
+  company of Obvious Ventures. Octave publishes no public developer API; this API
+  Evangelist profile captures the company's public web surface, a provider-published
+  llms.txt, and its domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/octave/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Mental Health
+- Therapy
+- Healthcare
+- Telehealth
+- Behavioral Health
+- Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://findoctave.com
+- type: Blog
+  url: https://blog.findoctave.com/
+- type: Pricing
+  url: https://www.findoctave.com/insurance
+- type: Support
+  url: https://www.findoctave.com/contact
+- type: Login
+  url: https://my.findoctave.com/portal
+- type: LLMsTxt
+  url: llms/octave-llms.txt
+- type: DomainSecurity
+  url: security/octave-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
